@@ -1,17 +1,15 @@
 .nav {
-
   display: flex;
   width: 100%;
   justify-content: flex-start;
 }
 
-
-h3 ,h2 ,h1{
-
+h3,
+h2,
+h1 {
   margin: 20px;
   color: blueviolet;
 }
-
 
 .circle {
   background: blueviolet;
@@ -22,19 +20,40 @@ h3 ,h2 ,h1{
 }
 
 .card {
-
   display: flex;
   justify-content: space-around;
-
-
 }
 
 .card-item {
-
   display: flex;
   flex-direction: column;
   width: 30%;
   background-color: cornsilk;
   justify-content: center;
   align-items: center;
+}
+
+table {
+
+  margin:50px;
+}
+
+table,th,td {
+
+  border: 1px solid black;
+}
+
+th,td {
+
+  padding: 15px
+}
+
+th {
+  text-align: left;
+}
+
+.caption {
+
+  display: flex;
+  align-items: flex-start;
 }
